@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background 0.5s, color 0.5s;
+}
+header {
+    padding: 1em;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+}

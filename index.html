@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgriInfo - Agriculture Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="default-theme">
+    <header>
+         <img src="download.jpg" alt="AgriInfo Logo" style="height:60px;">
+        <h1>AgriInfo</h1>
+        <p>Growing Knowledge, Naturally</p>
+        <select id="themeSelector">
+            <option value="default">Default</option>
+            <option value="candy">Candy</option>
+            <option value="vivid">Vivid</option>
+        </select>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>What is Agriculture?</h2>
+            <img src="download (1).jpg" alt="Agriculture Example" style="width:100%;max-width:400px;display:block;margin:16px auto;">
+            <p>Agriculture is the science and art of cultivating plants and livestock. It forms the backbone of the world's food supply and plays a crucial role in our economy.</p>
+        </section>
+
+        <section class="facts">
+            <h2>Key Facts</h2>
+            <ul>
+                <li>Over 60% of the world population relies on agriculture for livelihood.</li>
+                <li>Sustainable farming helps protect our environment.</li>
+                <li>Modern tech (like drones and AI) is reshaping agriculture.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 AgriInfo. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const themeSelector = document.getElementById("themeSelector");
+        themeSelector.addEventListener("change", () => {
+            document.body.className = themeSelector.value + "-theme";
+        });
+    </script>
+</body>
+</html>
+        

@@ -1,0 +1,11 @@
+.default-theme {
+    background: #f4f4f4;
+    color: #333;
+}
+.default-theme header {
+    background: #2e7d32;
+    color: white;
+}
+.default-theme footer {
+    background: #c8e6c9;
+}
